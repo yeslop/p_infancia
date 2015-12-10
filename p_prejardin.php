@@ -22,477 +22,7 @@ Kiddiez Shop
 </title>
 <link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/537653047-widget_css_bundle.css' />
 <link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=6852192370751838918&zx=7b04a788-0865-46f3-95bd-7f829e0d37ec' />
-<style id='page-skin-1' type='text/css'><!--
-/*
------------------------------------------------
-Kiddiez Shop Template
-Code by www.ipietoon.com
-Nov 2012
------------------------------------------------ */
-#layout #NavbarMenu {
-display: block;
-clear: both;
-position: relative;
-margin-bottom: 60px;
-}
-body {
-background:#89A02C url("http://3.bp.blogspot.com/-Fz4yfwWRL1A/Vk1s5oLUS2I/AAAAAAAABos/sFYIUk3fEFA/s000/body.png") repeat-x top;
-color: #5b4432;
-font-size: 13px;
-font-family: 'Oldenburg', cursive;
-text-align: left;
-margin: 0 auto 0;
-padding: 0;
-}
-#navbar-iframe {
-height: 0px;
-visibility: hidden;
-display: none;
-}
-#wrap {
-width: 1000px;
-margin: 0px auto 0px;
-padding: 0px 10px 0px 10px;
-position: relative;
-}
-#wrap-inner {
-background:#fff;
-padding: 0px 10px;
-}
-a, a:visited {
-color: #D45500;
-text-decoration: none;
-}
-a:hover {
-color: #534741;
-text-decoration: underline;
-}
-a img {
-border-width: 0;
-}
-/* Header
------------------------------------------------*/
-#header-outer{
-background:url("http://3.bp.blogspot.com/-RoQ2a6sR4JA/Vk1s6dVnNRI/AAAAAAAABow/mb7nh6M15kg/s000/header.png") no-repeat center;
-width: 1000px;
-height: 435px;
-color: #D45500;
-margin: 0px auto 0;
-padding: 0;
-overflow: hidden;
-}
-#header-wrapper {
-width: 1000px;
-color: #d45500;
-margin: 0 auto 0;
-overflow: hidden;
-}
-#header-inner {
-margin-left: auto;
-margin-right: auto;
-}
-#header {
-margin: auto;
-text-align: left;
-}
-#header h1 {
-margin:10px 5px 0;
-padding:0px;
-font-family: 'Clicker Script', cursive;
-font-size: 52px;
-line-height:1.2em;
-text-transform:titlecase;
-letter-spacing:.1em;
-text-align:center;
-}
-#header a {
-text-decoration:none;
-}
-#header a:hover {
-}
-#header .description {
-margin:auto;
-padding:10px 0px 15px 0px;
-letter-spacing:.1em;
-line-height: 1.4em;
-color:#a5895a;
-font-weight:bold;
-font-size:24px;
-text-align:center;
-}
-#header img {
-margin-top:10px;
-margin-left: auto;
-margin-right: auto;
-}
-/* Navigation Menu
-------------------------------------------------------*/
-#NavbarMenu {
-background:#D45500;
-width: 1000px;
-height: 40px;
-font-size: 14px;
-color: #fff;
-font-weight: normal;
-margin: 0px auto 0px;
-padding:0px;
-}
-#nav {
-margin: 0 auto 0;
-padding: 0;
-text-align:center;
-}
-#nav ul {
-list-style: none;
-margin: 0 auto 0;
-padding: 0;
-text-align:center;
-display:inline;
-}
-#nav li {
-list-style: none;
-margin: 0 auto 0;
-padding: 0;
-display:inline;
-}
-#nav li a, #nav li a:link, #nav li a:visited {
-color: #fff;
-display:inline-block;
-font-weight: normal;
-text-transform: uppercase;
-margin: 0 auto 0;
-padding: 10px 15px 7px;
-}
-#nav li a:hover, #nav li a:active {
-color: #ffe680;
-margin: 0;
-padding: 10px 15px 7px;
-text-decoration: none;
-}
-/*Wrapper
----------------------------------*/
-#outer-wrapper {
-padding:0px;
-margin:0 auto 0;
-line-height: 18px;
-}
-#content-wrapper {
-margin:0px auto 0;
-padding:0;
-line-height: 18px;
-}
-#main-wrapper {
-float:left;
-background:#ffffff;
-width: 700px;
-margin: auto;
-padding:20px 10px 5px 10px;
-}
-#sidebar-wrapper-right {
-width: 260px;
-margin: auto;
-padding: 0px 0 10px;
-float: right;
-font-size:12px;
-line-height: 14px!important;
-word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
-overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
-}
-#sidebar-wrapper-left {
-width: 260px;
-margin: auto;
-padding: 0px 0 10px;
-float: left;
-font-size:14px;
-line-height: 14px!important;
-word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
-overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
-}
-#sidebar-wrapper-left h2, #sidebar-wrapper-right h2 {
-background:url("http://3.bp.blogspot.com/-iCCGyrbD20I/Vk1s7APB-KI/AAAAAAAABo0/Y96vYBkrH58/s000/sidebar.png") no-repeat right center;
-color: #6c5d53;
-font-family: 'Clicker Script', cursive;
-font-size: 30px;
-font-weight:normal;
-padding: 20px 0px 20px 0px;
-margin: 0px;
-text-align:left;
-}
-.sidebar, .sidebar2 {
-margin: 2px 0px;
-padding: 0px;
-}
-.sidebar ul, .sidebar2 ul {
-list-style:none;
-margin:2px 0px;
-padding: 0px;
-}
-.sidebar li, .sidebar2 li {
-margin: 1px 0px;
-padding: 2px;
-}
-.sidebar .widget, .sidebar2 .widget {
-margin-bottom:10px;
-padding:10px 0 0 0;
-}
-.main .widget {
-margin: 0px;
-padding: 0px;
-}
-.main .Blog {
-padding: 10px 15px;
-margin: 0px;
-}
-/*Post
--------------------------------------------------*/
-h2.date-header {
-margin: 1.5em 0 .5em;
-display: none;
-}
-.post {
-margin-bottom:10px;
-padding: 0px;
-overflow:hidden;
-width:695px;
-}
-.post h3 {
-color: #6c5d53;
-font-size: 24px;
-font-weight: normal;
-padding: auto;
-margin: 0px 0 5px;
-line-height:35px;
-text-align:center;
-}
-.post h3 a, #content h1 a:visited {
-color: #6c5d53;
-font-size: 24px;
-font-weight: normal;
-margin: 0 0 5px;
-padding: 0;
-font-family: 'Oldenburg', cursive;
-}
-.post h3 a:hover {
-color: #d45500;
-text-decoration: none;
-font-family: 'Oldenburg', cursive;
-}
-.post-body {
-text-align:justify;
-margin: .75em 0 .75em;
-line-height: 1.6em;
-}
-.post-header {
-margin: .1em 0 .75em 0px;
-padding:25px 0px 0px;
-letter-spacing:.05em;
-line-height: 1.4em;
-font-size:11px;
-display:block;
-text-align:center;
-}
-.post-header a{
-}
-.post-footer {
-border-top:1px dashed #BDA692;
-margin: .75em 0 .75em 0px;
-padding:0 0 35px;
-letter-spacing:.05em;
-line-height: 1.4em;
-display:block;
-font-size:11.5px;
-}
-.comment-link {
-padding-left: 5px;
-}
-.labels {
-padding-left: 0px;
-}
-.author {
-padding-left: 0px;
-}
-.timestamp {
-padding-left: 5px;
-}
-.post-body blockquote {
-line-height: 1.3em;
-}
-.post img {
-padding: 10px;
-}
-.post blockquote {
-margin: 5px;
-padding: 0px 20px 0 15px;
-border-left: 4px solid #fa6e4a;
-}
-.post blockquote p {
-margin: 0;
-padding: 0 0 0px;
-}
-/*Comments
-----------------------------------------------*/
-.comments {
-margin-bottom:10px;
-padding: 0px;
-overflow:hidden;
-width:695px;
-}
-#comments h4 {
-color: #534741;
-font-size: 32px;
-font-family: 'Clicker Script', cursive;
-font-weight: normal;
-margin: 0 0 10px;
-padding:20px 0px 20px 0px;
-}
-#comments-block {
-width:630px;
-float: left;
-padding: 0;
-margin: 0;
-}
-#comments-block .comment-author {
-margin: 0em 0;
-font-weight: bold;
-}
-#comments-block .comment-footer {
-margin: -.25em 0 2em;
-line-height: 1.4em;
-letter-spacing: .1em;
-border-bottom:1px dashed #ffaaaa;
-}
-#comments-block .comment-body p {
-margin: 0 0 .75em;
-}
-.deleted-comment {
-font-style: italic;
-color: gray;
-}
-#blog-pager-newer-link {
-float: left;
-}
-#blog-pager-older-link {
-float: right;
-}
-#blog-pager {
-text-align: center;
-clear:both;
-font-size:11px;
-}
-.feed-links {
-clear: both;
-line-height: 2.5em;
-display:none;
-}
-.main .widget {
-margin: 0 0 1.5em;
-padding: 0 0 1.5em;
-}
-.main .Blog {
-border-bottom-width: 0;
-}
-/*Footer
----------------------------------------------*/
-#footer {
-width: 1000px;
-clear: both;
-margin: 0 auto 0;
-padding-top:0px;
-line-height: 1.6em;
-letter-spacing: .1em;
-text-align: center;
-}
-/*Credit
----------------------------------------------------*/
-#credit-wrapper{
-margin: 0px auto 0px;
-padding: 0;
-width: 100%;
-height:80px;
-font-size:12px;
-font-weight: normal;
-text-align:center;
-color:#ffffff;
-}
-#credit{
-background:#614431;
-margin: 0px auto 0px;
-padding: 20px 0 0 0;
-width: 1000px;
-height:30px;
-font-size:12px;
-font-weight: normal;
-text-align:center;
-color:#ffffff;
-}
-#credit p {
-margin: 0;
-padding-top:50px;
-}
-#credit a,  .credit a:visited {
-color: #fff;
-text-decoration: none;
-font:verdana;
-font-size:12px;
-}
-#credit a:hover{
-color: #fff;
-text-decoration: underline;
-}
-.avatar-image-container {
-margin: .2em 0 0;
-}
-#PageList1 h2, #Pagelist2 h2{ display:none;}
-
---></style>
-<style>
-
-/* Posts
------------------------------------------------
- */
-
-.post {
-border:1px solid #f3f7eb;
-float:left;
-height:200px;
-margin:14px 28px 14px 0px;
-overflow:hidden;
-padding:15px 5px 5px 5px;
-position:relative;
-width:190px;
-  }
-
-.post h3 {
-top:5px;
-font-size:14px;
-font-weight:normal;
-position: absolute;
-text-align:center;
-line-height:17px;
-font-family: 'Oldenburg', cursive;
-}
-
-.post h3 a, .post h3 a:visited {
-font-size:14px;
-font-weight:normal;
-font-family: 'Oldenburg', cursive;
-}
-
-.post img {
-background:#eaeaea none repeat scroll 0 0;
-height:180px;
-min-width:190px;
-padding:0;
-  }
-
-.post-footer-line-1 {display:none;}
-
-.post-labels {display:none;}
-
-.post-header {
-background:none;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="screen.css">
 <script type='text/javascript'>
 summary_noimg = 300;
 summary_img = 200;
@@ -545,22 +75,10 @@ function createSummaryAndThumb(pID){
 if (window.jstiming) window.jstiming.load.tick('headEnd');
 </script></head>
 <body>
-<div id='header-outer'>
-<div id='header-wrapper'>
-<div class='header section' id='header'><div class='widget Header' id='Header1'>
-<div id='header-inner'>
-<div class='titlewrapper'>
-<h1 class='title'>
-Corporación Politécnico de Magangué
-</h1>
-</div>
-<div class='descriptionwrapper'>
-<p class='description'><span>Programa de educación preescolar</span></p>
-</div>
-</div>
-</div></div>
-</div>
-</div>
+  <div id='header-outer'>
+	<?php include('template/header-outer.php'); ?>	
+  </div>
+
 <div id='NavbarMenu'>
 <div class='navbarleft'>
 <div class='nav section' id='nav'><div class='widget PageList' id='PageList1'>
@@ -605,15 +123,15 @@ Corporación Politécnico de Magangué
 <div class='post hentry'>
 <a name='8178176466869786854'></a>
 <h3 class='post-title entry-title'>
-<a href='2015/11/lorem-ipsum_53.html'>Lorem Ipsum</a>
+<a href='2015/11/lorem-ipsum_53.html'>Unidad I: El colegio</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
 <div class='post-body entry-content' id='post-body-8178176466869786854'>
-<div id='summary8178176466869786854'><p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUeMwXoI/AAAAAAAAFoc/7f0Um7OTgNg/s000/Antartic-by-Peter-Rejcek.jpg" alt="Antartic. By Peter Rejcek" width="500" height="332"></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&#187; A normal paragraph</strong></p><p>Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><strong>&#187; A paragraph format</strong></p><p>Et posse meliore <strong>definitiones (strong)</strong> his, vim <em>tritani vulputate (italic)</em> pertinacia at. <acronym title="Acronym">Augue quaerendum (Acronym)</acronym> te sea, ex <sub>sed</sub> <sup>sint</sup> <span style="text-decoration: line-through;">invenire erroribus</span>. Cu vel ceteros scripserit, te usu modus fabellas mediocritatem. In legere regione instructior eos. Ea repudiandae suscipiantur vim, vel partem labores ponderum in <a href="http://btemplates.com/" title="Templates for Blogger">blogger templates (link).</a></p><p><strong>&#187; A paragraph as code</strong></p><p><code>Mel putent quaeque an, ut postea melius denique sit. Officiis sensibus at mea, sea at labitur deserunt. Eam dicam congue soluta ut.</code></p><p><strong>&#187; A paragraph as blockquote</strong></p><blockquote><p>Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p></blockquote><p><strong>&#187; Unordered list</strong></p><ul><li>Blogger templates</li><li>Templates</li><li>Blogs</li><li>Layouts</li><li>Skins</li><li>BTemplates</li></ul><p><strong>&#187; Ordered list</strong></p><ol><li>Login</li><li>Visit <a href="http://btemplates.com/">BTemplates</a></li><li>Download template</li><li>Install</li><li>Enjoy!</li></ol><p><strong>&#187; Heading</strong></p><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><p><strong>&#187; A table</strong></p></div>
+<div id='summary8178176466869786854'><p><img src="imagenes/unidad_I_el_colegio.jpg" alt="Antartic. By Peter Rejcek" width="500" height="332"></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&#187; A normal paragraph</strong></p><p>Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><strong>&#187; A paragraph format</strong></p><p>Et posse meliore <strong>definitiones (strong)</strong> his, vim <em>tritani vulputate (italic)</em> pertinacia at. <acronym title="Acronym">Augue quaerendum (Acronym)</acronym> te sea, ex <sub>sed</sub> <sup>sint</sup> <span style="text-decoration: line-through;">invenire erroribus</span>. Cu vel ceteros scripserit, te usu modus fabellas mediocritatem. In legere regione instructior eos. Ea repudiandae suscipiantur vim, vel partem labores ponderum in <a href="http://btemplates.com/" title="Templates for Blogger">blogger templates (link).</a></p><p><strong>&#187; A paragraph as code</strong></p><p><code>Mel putent quaeque an, ut postea melius denique sit. Officiis sensibus at mea, sea at labitur deserunt. Eam dicam congue soluta ut.</code></p><p><strong>&#187; A paragraph as blockquote</strong></p><blockquote><p>Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p></blockquote><p><strong>&#187; Unordered list</strong></p><ul><li>Blogger templates</li><li>Templates</li><li>Blogs</li><li>Layouts</li><li>Skins</li><li>BTemplates</li></ul><p><strong>&#187; Ordered list</strong></p><ol><li>Login</li><li>Visit <a href="http://btemplates.com/">BTemplates</a></li><li>Download template</li><li>Install</li><li>Enjoy!</li></ol><p><!--<strong>&#187; Heading</strong></p><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><p><strong>&#187; A table</strong>!--></p></div>
 <script type='text/javascript'>createSummaryAndThumb("summary8178176466869786854");</script>
-<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUeMwXoI/AAAAAAAAFoc/7f0Um7OTgNg/s000/Antartic-by-Peter-Rejcek.jpg" alt="Antartic. By Peter Rejcek" width="500" height="332"></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&#187; A normal paragraph</strong></p><p>Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><strong>&#187; A paragraph format</strong></p><p>Et posse meliore <strong>definitiones (strong)</strong> his, vim <em>tritani vulputate (italic)</em> pertinacia at. <acronym title="Acronym">Augue quaerendum (Acronym)</acronym> te sea, ex <sub>sed</sub> <sup>sint</sup> <span style="text-decoration: line-through;">invenire erroribus</span>. Cu vel ceteros scripserit, te usu modus fabellas mediocritatem. In legere regione instructior eos. Ea repudiandae suscipiantur vim, vel partem labores ponderum in <a href="http://btemplates.com/" title="Templates for Blogger">blogger templates (link).</a></p><p><strong>&#187; A paragraph as code</strong></p><p><code>Mel putent quaeque an, ut postea melius denique sit. Officiis sensibus at mea, sea at labitur deserunt. Eam dicam congue soluta ut.</code></p><p><strong>&#187; A paragraph as blockquote</strong></p><blockquote><p>Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p></blockquote><p><strong>&#187; Unordered list</strong></p><ul><li>Blogger templates</li><li>Templates</li><li>Blogs</li><li>Layouts</li><li>Skins</li><li>BTemplates</li></ul><p><strong>&#187; Ordered list</strong></p><ol><li>Login</li><li>Visit <a href="http://btemplates.com/">BTemplates</a></li><li>Download template</li><li>Install</li><li>Enjoy!</li></ol><p><strong>&#187; Heading</strong></p><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><p><strong>&#187; A table</strong></p>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUeMwXoI/AAAAAAAAFoc/7f0Um7OTgNg/s000/Antartic-by-Peter-Rejcek.jpg" alt="Antartic. By Peter Rejcek" width="500" height="332"></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&#187; A normal paragraph</strong></p><p>Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><strong>&#187; A paragraph format</strong></p><p>Et posse meliore <strong>definitiones (strong)</strong> his, vim <em>tritani vulputate (italic)</em> pertinacia at. <acronym title="Acronym">Augue quaerendum (Acronym)</acronym> te sea, ex <sub>sed</sub> <sup>sint</sup> <span style="text-decoration: line-through;">invenire erroribus</span>. Cu vel ceteros scripserit, te usu modus fabellas mediocritatem. In legere regione instructior eos. Ea repudiandae suscipiantur vim, vel partem labores ponderum in <a href="http://btemplates.com/" title="Templates for Blogger">blogger templates (link).</a></p><p><strong>&#187; A paragraph as code</strong></p><p><code>Mel putent quaeque an, ut postea melius denique sit. Officiis sensibus at mea, sea at labitur deserunt. Eam dicam congue soluta ut.</code></p><p><strong>&#187; A paragraph as blockquote</strong></p><blockquote><p>Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p></blockquote><p><strong>&#187; Unordered list</strong></p><ul><li>Blogger templates</li><li>Templates</li><li>Blogs</li><li>Layouts</li><li>Skins</li><li>BTemplates</li></ul><p><strong>&#187; Ordered list</strong></p><ol><li>Login</li><li>Visit <a href="http://btemplates.com/">BTemplates</a></li><li>Download template</li><li>Install</li><li>Enjoy!</li></ol><p><!--<strong>&#187; Heading</strong></p><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><p><strong>&#187; A table</strong> !--></p>
 <div style='clear: both;'></div>
 </div>
 <div class='jump-link'>
@@ -675,13 +193,13 @@ Labels:
 <div class='post hentry'>
 <a name='7335923200631861691'></a>
 <h3 class='post-title entry-title'>
-<a href='2015/11/lorem-ipsum_50.html'>Lorem Ipsum</a>
+<a href='2015/11/lorem-ipsum_50.html'>Unidad II: La familia</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
 <div class='post-body entry-content' id='post-body-7335923200631861691'>
-<div id='summary7335923200631861691'><p><strong>&raquo; An Image</strong></p><p style="display:block; text-align:center;"><img style="margin:0px auto 10px;" src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUFUhg6I/AAAAAAAAFoY/GToUxRYcteY/s000/Antartic-by-Kelly-Speelman.jpg" border="0" alt="Antartic. by Kelly Speelman." width="500" height="332"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&raquo; A floating image with link and text</strong></p><p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://btemplates.com"><img style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer; width: 184px; height: 32px;" src="http://2.bp.blogspot.com/_Zuzii37VUO4/SdSQklhdvBI/AAAAAAAAEQU/-K-OReo6lig/s1600/www-btemplates-com.png" alt="BTemplates" border="0" /></a> Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://btemplates.com"><img style="float:left; margin:0 10px 10px 0;cursor:pointer; cursor:hand;width: 184px; height: 32px;" src="http://2.bp.blogspot.com/_Zuzii37VUO4/SdSQklhdvBI/AAAAAAAAEQU/-K-OReo6lig/s1600/www-btemplates-com.png" border="0" alt="Blogger Templates" /></a> Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p></div>
+<div id='summary7335923200631861691'><p><strong>&raquo; An Image</strong></p><p style="display:block; text-align:center;"><img style="margin:0px auto 10px;" src="imagenes/fami.jpg" border="0" alt="Antartic. by Kelly Speelman." width="500" height="332"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&raquo; A floating image with link and text</strong></p><p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://btemplates.com"><img style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer; width: 184px; height: 32px;" src="http://2.bp.blogspot.com/_Zuzii37VUO4/SdSQklhdvBI/AAAAAAAAEQU/-K-OReo6lig/s1600/www-btemplates-com.png" alt="BTemplates" border="0" /></a> Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://btemplates.com"><img style="float:left; margin:0 10px 10px 0;cursor:pointer; cursor:hand;width: 184px; height: 32px;" src="http://2.bp.blogspot.com/_Zuzii37VUO4/SdSQklhdvBI/AAAAAAAAEQU/-K-OReo6lig/s1600/www-btemplates-com.png" border="0" alt="Blogger Templates" /></a> Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p></div>
 <script type='text/javascript'>createSummaryAndThumb("summary7335923200631861691");</script>
 <p><strong>&raquo; An Image</strong></p><p style="display:block; text-align:center;"><img style="margin:0px auto 10px;" src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUFUhg6I/AAAAAAAAFoY/GToUxRYcteY/s000/Antartic-by-Kelly-Speelman.jpg" border="0" alt="Antartic. by Kelly Speelman." width="500" height="332"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;"></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p><p><strong>&raquo; A floating image with link and text</strong></p><p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://btemplates.com"><img style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer; width: 184px; height: 32px;" src="http://2.bp.blogspot.com/_Zuzii37VUO4/SdSQklhdvBI/AAAAAAAAEQU/-K-OReo6lig/s1600/www-btemplates-com.png" alt="BTemplates" border="0" /></a> Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p><p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://btemplates.com"><img style="float:left; margin:0 10px 10px 0;cursor:pointer; cursor:hand;width: 184px; height: 32px;" src="http://2.bp.blogspot.com/_Zuzii37VUO4/SdSQklhdvBI/AAAAAAAAEQU/-K-OReo6lig/s1600/www-btemplates-com.png" border="0" alt="Blogger Templates" /></a> Eu mei solum oporteat eleifend, libris nominavi maiestatis duo at, quod dissentiet vel te. Legere prompta impedit id eum. Te soleat vocibus luptatum sed, augue dicta populo est ad, et consul diceret officiis duo. Et duo primis nostrum.</p>
 <div style='clear: both;'></div>
@@ -724,13 +242,13 @@ Labels:
 <div class='post hentry'>
 <a name='5395310937979818661'></a>
 <h3 class='post-title entry-title'>
-<a href='2015/11/lorem-ipsum_5.html'>Lorem Ipsum</a>
+<a href='2015/11/lorem-ipsum_5.html'>Unidad III: La casa (dependencias) - mis juguetes</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
 <div class='post-body entry-content' id='post-body-5395310937979818661'>
-<div id='summary5395310937979818661'><p><img src="http://lh6.googleusercontent.com/_Zuzii37VUO4/TaTi3fuciqI/AAAAAAAAFn8/jWQEmLcihNs/s000/popocatepetl-iztaccihuatl.jpg" alt="Volcanoes Popocatepetl and Iztaccihuatl, M&eacute;xico. By Fco. Vicente" width="500" height="332"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div id='summary5395310937979818661'><p><img src="imagenes/casa1.jpg" alt="Volcanoes Popocatepetl and Iztaccihuatl, M&eacute;xico. By Fco. Vicente" width="500" height="332"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
 </div>
 <script type='text/javascript'>createSummaryAndThumb("summary5395310937979818661");</script>
 <p><img src="http://lh6.googleusercontent.com/_Zuzii37VUO4/TaTi3fuciqI/AAAAAAAAFn8/jWQEmLcihNs/s000/popocatepetl-iztaccihuatl.jpg" alt="Volcanoes Popocatepetl and Iztaccihuatl, M&eacute;xico. By Fco. Vicente" width="500" height="332"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
@@ -774,13 +292,13 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
-<a href='2015/11/lorem-ipsum_18.html'>Lorem Ipsum</a>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad IV: El cuerpo humano y los sentidos</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
 <div class='post-body entry-content' id='post-body-4085996068485245780'>
-<div id='summary4085996068485245780'><p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div id='summary4085996068485245780'><p><img src="imagenes/sentidos1.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
 </div>
 <script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
 <p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
@@ -824,13 +342,13 @@ Labels:
 <div class='post hentry'>
 <a name='1942540987956832015'></a>
 <h3 class='post-title entry-title'>
-<a href='2015/11/lorem-ipsum.html'>Lorem Ipsum</a>
+<a href='2015/11/lorem-ipsum.html'>Unidad V: Aseo personal y elementos de aseo</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
 <div class='post-body entry-content' id='post-body-1942540987956832015'>
-<div id='summary1942540987956832015'><p><img src="http://lh5.googleusercontent.com/_Zuzii37VUO4/Ta0nUwb4ufI/AAAAAAAAFok/MhbqfKWW6N4/s000/Nasa-Orion-Nebula-By-RePublicDomain.jpg" alt="Orion Nebula, NASA." width="500" height="338"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div id='summary1942540987956832015'><p><img src="imagenes/aseo1.jpg" alt="Orion Nebula, NASA." width="500" height="338"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
 </div>
 <script type='text/javascript'>createSummaryAndThumb("summary1942540987956832015");</script>
 <p><img src="http://lh5.googleusercontent.com/_Zuzii37VUO4/Ta0nUwb4ufI/AAAAAAAAFok/MhbqfKWW6N4/s000/Nasa-Orion-Nebula-By-RePublicDomain.jpg" alt="Orion Nebula, NASA." width="500" height="338"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
@@ -870,17 +388,545 @@ Labels:
 </div>
 </div>
 </div>
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad VI: Prendas de vestir y estados del clima</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/prendas.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad VII: Las plantas y los Alimentos</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/planta2.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad VIII: La granja y animales domésticos</a></h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/granja.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad IX: Animales acuáticos</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/agua.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad X: Animales salvajes</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/selva.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad XI: Medios de transporte y señal de transito: Pare</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/medio1.png" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad XII: Medios de comunicación</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/medio3.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad XIII: Profesiones</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/profesiones1.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad XIV: Oficios</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/oficios1.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+<!--comienzo de fila !-->
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4085996068485245780'></a>
+<h3 class='post-title entry-title'>
+<a href='2015/11/lorem-ipsum_18.html'>Unidad XV: Mi país</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4085996068485245780'>
+<div id='summary4085996068485245780'><p><img src="imagenes/pais.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="190" height="180"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary4085996068485245780");</script>
+<p><img src="http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUiWvDBI/AAAAAAAAFog/nL_6t681_Gk/s000/Mammoth-Hot-Springs-Yellow-Stone-By-RePublicDomain.jpg" alt="Mammoth Hot Springs, Yellow Stone, USA. By RePublicDomain.com" width="500" height="375"/></p><p>Download this and more <a href="http://btemplates.com/">Blogger Templates</a> at <a href="http://btemplates.com" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px; !important; background:none !important;" title="BTemplates"><img src="http://1.bp.blogspot.com/_zNpQsOlwuPA/S2lKsFgNlMI/AAAAAAAAAKw/0Qay8rrjLKQ/s000/btemplates-small.png" alt="BTemplates" style="border:0 !important;text-decoration:none !important; margin:0px !important; padding:0px;background:none !important;" /></a>. For tutorials, tips and tricks about Blogger visit our <a title="Blogger Tutorials" href="http://blog.btemplates.com">Blog</a>.</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>BTemplates</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='2015/11/lorem-ipsum_18.html' rel='bookmark' title='permanent link'><abbr class='published' title='2015-11-18T22:32:00-08:00'>10:32 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1099626233'>
+<a href='https://www.blogger.com/post-edit.g?blogID=6852192370751838918&postID=4085996068485245780&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6852192370751838918&postID=4085996068485245780&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://kiddiezshop-btemplates.blogspot.com/2015/11/lorem-ipsum_18.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='search/label/Lorem%203.html' rel='tag'>Lorem 3</a>,
+<a href='search/label/Lorem%204.html' rel='tag'>Lorem 4</a>
+</span>
+<span class='post-location'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+<!-- fin de fila  !-->
+
 <div class='post-outer'>
 <div class='post hentry'>
 <a name='2793729962376381999'></a>
 <h3 class='post-title entry-title'>
-<a href='2015/11/template-images.html'>Template images</a>
+<a href='2015/11/template-images.html'>Unidad XVI: Navidad </a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
 <div class='post-body entry-content' id='post-body-2793729962376381999'>
-<div id='summary2793729962376381999'><p><img src="http://lh4.googleusercontent.com/_Zuzii37VUO4/Ta0nTs8AbPI/AAAAAAAAFoU/zCvNKv4kfe4/s000/BeachWaves-By-RePublicDomain.jpg" alt="Beach waves. By RePublicDomain.com" width="500" height="332"/></p><p><strong>3 Images in this template:</strong><br /><span style="font-size:80%;">(Click on each to download)</span></p><ul><li><a href="http://3.bp.blogspot.com/-Fz4yfwWRL1A/Vk1s5oLUS2I/AAAAAAAABos/sFYIUk3fEFA/d/body.png">body.png</a></li><li><a href="http://3.bp.blogspot.com/-RoQ2a6sR4JA/Vk1s6dVnNRI/AAAAAAAABow/mb7nh6M15kg/d/header.png">header.png</a></li><li><a href="http://3.bp.blogspot.com/-iCCGyrbD20I/Vk1s7APB-KI/AAAAAAAABo0/Y96vYBkrH58/d/sidebar.png">sidebar.png</a></li></ul></div>
+<div id='summary2793729962376381999'><p><img src="imagenes/navidad.jpg" alt="Beach waves. By RePublicDomain.com" width="500" height="332"/></p><p><strong>3 Images in this template:</strong><br /><span style="font-size:80%;">(Click on each to download)</span></p><ul><li><a href="http://3.bp.blogspot.com/-Fz4yfwWRL1A/Vk1s5oLUS2I/AAAAAAAABos/sFYIUk3fEFA/d/body.png">body.png</a></li><li><a href="http://3.bp.blogspot.com/-RoQ2a6sR4JA/Vk1s6dVnNRI/AAAAAAAABow/mb7nh6M15kg/d/header.png">header.png</a></li><li><a href="http://3.bp.blogspot.com/-iCCGyrbD20I/Vk1s7APB-KI/AAAAAAAABo0/Y96vYBkrH58/d/sidebar.png">sidebar.png</a></li></ul></div>
 <script type='text/javascript'>createSummaryAndThumb("summary2793729962376381999");</script>
 <p><img src="http://lh4.googleusercontent.com/_Zuzii37VUO4/Ta0nTs8AbPI/AAAAAAAAFoU/zCvNKv4kfe4/s000/BeachWaves-By-RePublicDomain.jpg" alt="Beach waves. By RePublicDomain.com" width="500" height="332"/></p><p><strong>3 Images in this template:</strong><br /><span style="font-size:80%;">(Click on each to download)</span></p><ul><li><a href="http://3.bp.blogspot.com/-Fz4yfwWRL1A/Vk1s5oLUS2I/AAAAAAAABos/sFYIUk3fEFA/d/body.png">body.png</a></li><li><a href="http://3.bp.blogspot.com/-RoQ2a6sR4JA/Vk1s6dVnNRI/AAAAAAAABow/mb7nh6M15kg/d/header.png">header.png</a></li><li><a href="http://3.bp.blogspot.com/-iCCGyrbD20I/Vk1s7APB-KI/AAAAAAAABo0/Y96vYBkrH58/d/sidebar.png">sidebar.png</a></li></ul>
 <div style='clear: both;'></div>
@@ -923,7 +969,7 @@ Labels:
       
 </div>
 <div class='blog-pager' id='blog-pager'>
-<a class='home-link' href='index.html'>Home</a>
+<a class='home-link' href='index.html'>Proyecto Pre-jardín</a>
 </div>
 <div class='clear'></div>
 <div class='blog-feeds'>
@@ -936,9 +982,10 @@ Subscribe to:
 </div></div>
 </div>
 <!-- Sidebar -->
+
 <div id='sidebar-wrapper-right'>
 <div class='sidebar2 section' id='sidebar2'><div class='widget PopularPosts' id='PopularPosts1'>
-<h2>Popular Posts</h2>
+<h2>Contenido</h2>
 <div class='widget-content popular-posts'>
 <ul>
 <li>
@@ -948,7 +995,7 @@ Subscribe to:
 <img alt='' border='0' height='72' src='http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUFUhg6I/AAAAAAAAFoY/GToUxRYcteY/s72-c/Antartic-by-Kelly-Speelman.jpg' width='72'/>
 </a>
 </div>
-<div class='item-title'><a href='2015/11/lorem-ipsum_50.html'>Lorem Ipsum</a></div>
+<div class='item-title'><a href='2015/11/lorem-ipsum_50.html'>Reglamento escolar </a></div>
 </div>
 <div style='clear: both;'></div>
 </li>
@@ -959,7 +1006,7 @@ Subscribe to:
 <img alt='' border='0' height='72' src='http://lh3.googleusercontent.com/_Zuzii37VUO4/Ta0nUeMwXoI/AAAAAAAAFoc/7f0Um7OTgNg/s72-c/Antartic-by-Peter-Rejcek.jpg' width='72'/>
 </a>
 </div>
-<div class='item-title'><a href='2015/11/lorem-ipsum_53.html'>Lorem Ipsum</a></div>
+<div class='item-title'><a href='2015/11/lorem-ipsum_53.html'>Actividades</a></div>
 </div>
 <div style='clear: both;'></div>
 </li>
@@ -975,7 +1022,7 @@ Subscribe to:
 <div class='clear'></div>
 </div>
 </div><div class='widget HTML' id='HTML3'>
-<h2 class='title'>Blogger templates</h2>
+<h2 class='title'>Comentarios</h2>
 <div class='widget-content'>
 <script type="text/javascript">if(typeof jQuery == 'undefined'){document.write("<scr" + "ipt type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></scr" + "ipt>");}</script>
 <ul id="rssdata" style="display:none;"></ul><div id="rssloading">Loading...</div>
@@ -995,6 +1042,8 @@ for (var i=0; i < feeds.entries.length; i++) {
 jQuery('#rssloading').fadeOut();
 jQuery('#rssdata').slideDown();
 }, 5);</script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/coordenadas.js"></script>
 </div>
 <div class='clear'></div>
 <span class='widget-item-control'>
