@@ -123,7 +123,11 @@ if (window.jstiming) window.jstiming.load.tick('headEnd');
 <div class='post hentry'>
 <a name='8178176466869786854'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=1'>Unidad I: El colegio</a>
+=======
+<a href='2015/11/lorem-ipsum_53.html'>Unidad I: El colegio</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -193,7 +197,11 @@ Labels:
 <div class='post hentry'>
 <a name='7335923200631861691'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=2'>Unidad II: La familia</a>
+=======
+<a href='2015/11/lorem-ipsum_50.html'>Unidad II: La familia</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -242,7 +250,11 @@ Labels:
 <div class='post hentry'>
 <a name='5395310937979818661'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=3'>Unidad III: Dependencias y tipos de vivienda</a>
+=======
+<a href='2015/11/lorem-ipsum_5.html'>Unidad III: Dependencias y tipos de vivienda</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -292,7 +304,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=4'>Unidad IV: El cuerpo y los sentidos</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad IV: El cuerpo y los sentidos</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -342,7 +358,11 @@ Labels:
 <div class='post hentry'>
 <a name='1942540987956832015'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=5'>Unidad V: Aseo personal y prendas</a>
+=======
+<a href='2015/11/lorem-ipsum.html'>Unidad V: Aseo personal y prendas</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -393,7 +413,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=6'>Unidad VI: Las plantas y germinación</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad VI: Las plantas y germinación</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -446,7 +470,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=7'>Unidad VII: El campo y la ciudad / animales útiles al hombre</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad VII: El campo y la ciudad / animales útiles al hombre/a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -499,7 +527,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=8'>Unidad VIII: Animales salvajes, acuáticos e insectos</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad VIII: Animales salvajes, acuáticos e insectos</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -552,7 +584,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=9'>Unidad IX: Profesiones y medios de comunicación</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad IX: Profesiones y medios de comunicación</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -605,7 +641,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=10'>Unidad X: Medios de transporte y señales de transito</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad X: Medios de transporte y señales de transito</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -658,7 +698,11 @@ Labels:
 <div class='post hentry'>
 <a name='4085996068485245780'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=11'>Unidad XI: Mi país</a>
+=======
+<a href='2015/11/lorem-ipsum_18.html'>Unidad XI: Mi país</a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
@@ -711,7 +755,11 @@ Labels:
 <div class='post hentry'>
 <a name='2793729962376381999'></a>
 <h3 class='post-title entry-title'>
+<<<<<<< HEAD
 <a href='prog_jardin.php?uid=12'>Unidad XII: Navidad </a>
+=======
+<a href='2015/11/template-images.html'>Unidad XII: Navidad </a>
+>>>>>>> 967ac84ace474e27e24289ee340794b87bec0c8a
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
