@@ -128,7 +128,7 @@ function createSummaryAndThumb(pID){
 if (window.jstiming) window.jstiming.load.tick('headEnd');
 </script></head>
 <body>
-  <div id='header-outer'>
+  <div id='header-outer' style="cursor: pointer">
 	<?php include('template/header-outer.php'); ?>	
   </div>
 
@@ -177,11 +177,11 @@ if (window.jstiming) window.jstiming.load.tick('headEnd');
 </h3>
 		</li>
 		<ul>
-			<li><a href="tematica.php?uid2=1&unidad=<?php echo $unidad ?>">Pre-matemáticas</a></li>
-			<li><a href="tematica.php?uid2=2&unidad=<?php echo $unidad ?>">Pre-escritura</a></li>
-			<li><a href="tematica.php?uid2=3&unidad=<?php echo $unidad ?>">Motricidad Fina</a></li>
-			<li><a href="tematica.php?uid2=4&unidad=<?php echo $unidad ?>">Motricidad Gruesa</a></li>
-			<li><a href="tematica.php?uid2=5&unidad=<?php echo $unidad ?>">Lenguaje</a></li>
+			<li><a href="tematica.php?prog=<?php echo $_GET['prog'] ?>&uid2=1&unidad=<?php echo $unidad ?>">Pre-matemáticas</a></li>
+			<li><a href="tematica.php?prog=<?php echo $_GET['prog'] ?>&uid2=2&unidad=<?php echo $unidad ?>">Pre-escritura</a></li>
+			<li><a href="tematica.php?prog=<?php echo $_GET['prog'] ?>&uid2=3&unidad=<?php echo $unidad ?>">Motricidad Fina</a></li>
+			<li><a href="tematica.php?prog=<?php echo $_GET['prog'] ?>&uid2=4&unidad=<?php echo $unidad ?>">Motricidad Gruesa</a></li>
+			<li><a href="tematica.php?prog=<?php echo $_GET['prog'] ?>&uid2=5&unidad=<?php echo $unidad ?>">Lenguaje</a></li>
 		</ul>
 		
 	
@@ -193,7 +193,7 @@ if (window.jstiming) window.jstiming.load.tick('headEnd');
       
 </div>
 <div class='blog-pager' id='blog-pager'>
-<a class='home-link' href='p_transicion.php'>Regresar</a>
+<a class='home-link' href='p_transicion.php?prog=4'>Regresar</a>
 </div>
 <div class='clear'></div>
 <div class='blog-feeds'>
@@ -319,7 +319,7 @@ Mel putent quaeque an, ut postea melius denique sit. Officiis sensibus at mea, s
 </div>
 <div id='credit-wrapper'>
 <div id='credit'>
-<a href='index.html'>Kiddiez Shop</a> Copyright &#169; 2012  Design by Ipietoon <a href='http://www.ipietoon.com/' target='_blank'>Blogger Template</a>
+<a href='index.html'>Corporacón Politécnico de Magangué Nit: N° 900.170.599-2 Resolución: N° 4052(Dic 15-210) </a> 
 </div></div>
 <script type="text/javascript">
 if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
